@@ -5,7 +5,7 @@
 事前に[Worldon](https://github.com/cobodo/mikutter-worldon)をインストールしてから、以下のコマンドを実行します。
 
 ```shell-session
-mkdir -p ~/.mikutter/plugin && git clone git://github.com/cobodo/worldon_remote_emoji ~/.mikutter/plugin/worldon_remote_emoji
+git clone git://github.com/cobodo/worldon_remote_emoji ~/.mikutter/plugin/worldon_remote_emoji
 ```
 
 ## 使い方
