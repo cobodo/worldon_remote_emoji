@@ -1,0 +1,10 @@
+---
+slug: :worldon_remote_emoji
+depends:
+  mikutter: 3.7.4
+  plugin:
+    - worldon
+version: '1.0'
+author: cobodo
+name: Worldonリモートemoji
+description: 別インスタンスのemojiを使うためのプラグインです。
