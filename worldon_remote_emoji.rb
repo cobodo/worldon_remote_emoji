@@ -1,5 +1,5 @@
 Plugin.create(:worldon_remote_emoji) do
-  re = %r<:(\w+)@([0-9A-Za-z-\.]+):>.freeze
+  re = %r<:(\w+)@([0-9A-Za-z\.-]+):>.freeze
   emoji_map = TimeLimitedStorage.new(String, Hash) # domain -> shortcode -> Plugin::Worldon::Emoji
 
   filter_worldon_remote_emoji_cache do |_|
